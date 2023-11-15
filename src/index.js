@@ -1,17 +1,53 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <App />
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+
+/*  
+  {
+      
+      "titulo": "duplex",
+      "descripcion": "algo sobre duplex aca",
+      "categoria": "moderno",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/estudio-b6a81.appspot.com/o/fotografia-arquitectura-hora-azul.jpg?alt=media&token=e81a4f40-9df7-484e-bb29-8117c20e636b",
+      "precio": 1500,
+      "stock": 10
+  },
+  {
+     
+      "titulo": "loft",
+      "descripcion": "algo sobre loft aca",
+      "categoria": "clasica",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/estudio-b6a81.appspot.com/o/fotografia-arquitectura-hora-azul.jpg?alt=media&token=e81a4f40-9df7-484e-bb29-8117c20e636b",
+      "precio": 1500,
+      "stock": 10
+  },
+  {
+      
+      "titulo": "local comercial",
+      "descripcion": "algo sobre local lomercial aca",
+      "categoria": "economica",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/estudio-b6a81.appspot.com/o/fotografia-arquitectura-hora-azul.jpg?alt=media&token=e81a4f40-9df7-484e-bb29-8117c20e636b",
+      "precio": 1500,
+      "stock": 10
+  }                                                                                                                            
+]
+
+
+
+
+
+
+
+
+
+/*  */
